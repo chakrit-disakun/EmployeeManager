@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/fonts/FlamingoThin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "CustomFont", FlamingoThin;
+  background-color: rgb(249 250 251);
+}
